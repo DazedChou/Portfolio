@@ -1,107 +1,101 @@
-body{
-    
-    background-image: url('./6191107.jpg');
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    font-family: 'ABeeZee', sans-serif;
+body {
+  background-image: url("./images/6191107.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: "ABeeZee", sans-serif;
 }
 
-#navMobile{
-    visibility: hidden;
+#navMobile {
+  visibility: hidden;
 }
-#navList{
-    list-style: none;
-    font-size: larger;
-}
-
-
-.home{
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 200px;
-    position: relative;
-    top: 200px;
+#navList {
+  list-style: none;
+  font-size: larger;
 }
 
-.card{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 200px ; 
-    margin-bottom: 200px;
-    border: none;
-    background: transparent;
-
+.home {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  position: relative;
+  top: 200px;
 }
 
-.img-fluid{
-    border-radius: 25% 25% 25% 25% ;
-}
-#about{
-    max-width:640px;
-}
-#Skillcard{
-    width: 640px;
-}
-
-.d-block{
-   max-height: 500px;
-    max-width: 600px;
-    display: flex;
-    align-content: center;
-} 
-
-.carousel{
-   max-height: 500px;
-    max-width: 600px;
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  border: none;
+  background: transparent;
 }
 
-#resumeModal{
-    color: black;
+.img-fluid {
+  border-radius: 25% 25% 25% 25%;
+}
+#about {
+  max-width: 640px;
+}
+#Skillcard {
+  width: 640px;
+}
+
+.d-block {
+  max-height: 500px;
+  max-width: 600px;
+  display: flex;
+  align-content: center;
+}
+
+.carousel {
+  max-height: 500px;
+  max-width: 600px;
+}
+
+#resumeModal {
+  color: black;
 }
 
 @media screen and (max-width: 610px) {
-
-
-    .d-block{
-        max-height: 300px;
-         max-width: 400px;
-         display: flex;
-         align-content: center;
-     } 
-     
-     .carousel{
-        max-height: 300px;
-         max-width: 400px;
-     }
-
-     .card{
-         width: 320px;
-         margin: 200px 4px;
-
-     }
-     #Skillcard{
-         width: 320px;
-     }
-
-     #navList{
-         display: none;
-     }
-     #navMobile{
-         visibility: visible;
-         color: white;
-         font-size: larger;
-         width: auto;
-     }
-     #about{
-         width: 320px;
-     }
-     .home{
-         width: 320px;
-     }
+  .d-block {
+    max-height: 300px;
+    max-width: 400px;
+    display: flex;
+    align-content: center;
   }
+
+  .carousel {
+    max-height: 300px;
+    max-width: 400px;
+  }
+
+  .card {
+    width: 320px;
+    margin: 200px 4px;
+  }
+  #Skillcard {
+    width: 320px;
+  }
+
+  #navList {
+    display: none;
+  }
+  #navMobile {
+    visibility: visible;
+    color: white;
+    font-size: larger;
+    width: auto;
+  }
+  #about {
+    width: 320px;
+  }
+  .home {
+    width: 320px;
+  }
+}
